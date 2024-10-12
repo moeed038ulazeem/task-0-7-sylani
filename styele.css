@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-image: url("./pets-3715733_1280.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -8,7 +11,8 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
+    background: pink;
+    backface-visibility: visible;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
