@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Virtual Pet</title>
     <link rel="stylesheet" href="styele.css">
 </head>
 <body>
-    <h1>hey</h1>
-    
+    <div class="container">
+        <h1>Your Virtual Pet</h1>
+        <div id="pet-info">
+            <p>Name: <span id="pet-name">Fido</span></p>
+            <p>Type: <span id="pet-type">Dog</span></p>
+            <p>Age: <span id="pet-age">2</span></p>
+            <p>Happiness: <span id="pet-happiness">50</span></p>
+            <p>Hunger: <span id="pet-hunger">50</span></p>
+        </div>
+        <div class="buttons">
+            <button id="feed-button">Feed</button>
+            <button id="play-button">Play</button>
+            <button id="age-button">Age</button>
+        </div>
+    </div>
 
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
