@@ -1,6 +1,6 @@
 // Create a pet object
 let pet = {
-    name: "Fido",
+    name: "JON🐶",
     type: "Dog",
     age: 2,
     happiness: 50,
